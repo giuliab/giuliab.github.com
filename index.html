@@ -1,154 +1,153 @@
       <!DOCTYPE html>
-      <html>
-        <head>
-          <meta charset='utf-8'>
-          <meta http-equiv="X-UA-Compatible" content="chrome=1">
-          <meta name="viewport" content="width=640" />
+        <html>
+          <head>
+            <meta charset='utf-8'>
+            <meta http-equiv="X-UA-Compatible" content="chrome=1">
+            <meta name="viewport" content="width=640" />
 
-          <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-          <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-          <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+            <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+            <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+            <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-          <script type="text/javascript" src="javascripts/modernizr.js"></script>
-          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-          <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-          <script type="text/javascript">
-            $(document).ready(function () {
-              $('#main_content').headsmart()
-            })
-          </script>
-          <title>The Spinal Cord, a project by 267055</title>
-        </head>
+            <script type="text/javascript" src="javascripts/modernizr.js"></script>
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+            <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+            <script type="text/javascript">
+              $(document).ready(function () {
+                $('#main_content').headsmart()
+              })
+            </script>
+            <title>The Spinal Cord, a project by 267055</title>
+          </head>
 
-        <body>
-          <a id="forkme_banner" href="https://github.com/cvdlab-cg/267055/tree/master/final-project">See the project Repo</a>
-          <div class="shell">
+          <body>
+            <a id="forkme_banner" href="https://github.com/cvdlab-cg/267055/tree/master/final-project">See the project Repo</a>
+            <div class="shell">
 
-            <header>
-            
-              <span class="ribbon-outer">
-                <span class="ribbon-inner">
-                  <h1>The Spinal Cord</h1>
-                  <h2>A 3D representation in PLASM.js</h2>
+              <header>
+              
+                <span class="ribbon-outer">
+                  <span class="ribbon-inner">
+                    <h1>The Spinal Cord</h1>
+                    <h2>A 3D representation in PLASM.js</h2>
+                  </span>
+                  <span class="left-tail"></span>
+                  <span class="right-tail"></span>
                 </span>
-                <span class="left-tail"></span>
-                <span class="right-tail"></span>
-              </span>
-            </header>
+              </header>
 
-            <section id="downloads">
-              <span class="inner">
-                <a href="https://github.com/giuliab/final-project/zipball/master" class="zip">
-            <em>download</em>
-              .ZIP
-            </a>
-            <a href="https://github.com/giuliab/final-project/tarball/master" class="tgz">
-                <em>download</em>
-              .TGZ
+              <section id="downloads">
+                <span class="inner">
+                  <a href="https://github.com/giuliab/final-project/zipball/master" class="zip">
+              <em>download</em>
+                .ZIP
               </a>
-              </span>
-            </section>
-
-            <span class="banner-fix"></span>
-
-
-            <section id="main_content">
-              <h2 clas="header-level-2">Introduction</h2>
-
-      <p>The spinal cord is a cable about 43cm in length running from the brain stem to the lower back. 
-      It contains two types of tissue. The inner core is gray matter made up of nerve cell bodies,
-      unmyelinated axons, glial cells and blood vessels; the outer white matter is mainly composed of 
-      tracts of myelinated axons thath relay impulses to and from the spinal cord and the brain.
-      </br>
-      <img src="http://www.daviddarling.info/images/spinal_cord_cut-away.jpg"/>
-      </p>
-
-      <h3 clas="header-level-3">Extent of spinal cord</h3>
-      <p>
-      During the body's growth and development, the spinal cord does not continue to lengthen the way that the spinal bones do:
-      it therefore occupies only the first two-thirds of vertebral column. Cylindrical and slightly flattened, the spinal cord is about as 
-      thick as a finger for most of its length; extending from the lower part if the spinal cord is a cluster of individual nerve fiver 
-      called cauda equina.</br>
-      <img src="https://github.com/giuliab/final-project/blob/master/material/spinal3.png?raw=true"/>
-      <img src="https://github.com/giuliab/final-project/blob/master/material/Gray671.png?raw=true" heigth="300px"/>
-
-      </p>
-      <h3 clas="header-level-3">Spinal nerves</h3>
-      <p>
-      Through 31 pairs of spinal nerves, the spinal cord is connected to the rest of the body; via these nerves, the spinal cord sends and receives
-      information to and from the brain. The spinal nerves run through gaps between adjacent vertebrae and enter the back 
-      and front of the spinal cord as spinal nerve root. </br>
-      <img src="http://www.free-ed.net/sweethaven/MedTech/NurseCare/pics/fig91902_04.jpg"/>
-
-      </p>
-
-       <h2 clas="header-level-2">The project</h2>
-
-      <p>First of all, i made some sketches of the spinal cord to better understand his structure and to obtain the points for the curve.</br>
-      <img src="https://github.com/giuliab/final-project/blob/master/material/base_sketch.jpg?raw=true"/>
-      <img src="https://github.com/giuliab/final-project/blob/master/material/nerve_sketch.jpg?raw=true"/>
-
-      </p>
-       <h3 clas="header-level-3">The Meninges</h3>
-       <p>These are the <b>three protective layer</b> of connective tissue for the spinal cord.</p>
-       <ul>
-          <li><b>The Dura Mater:</b> is the outermost layer, and it forms a tough protective coating.</li>
-          <li><b>The Arachnoid:</b> is the middle protective layer. Its name comes from the fact that the tissue has a spiderweb-like appearance.</li>
-          <li><b>The Pia Mater:</b> is the innermost protective layer. It is very delicate and it is tightly associated with the surface of the spinal cord.</li>
-       </ul>
-       <p>To realize them, i started with the base of Dura mater by drawning a <code>BEZIER</code> curves and obtaining the surface (shown in the picture below) with the point interpolation (always using <code>BEZIER</code>, but with selector S1). </p>
-       <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot1.png?raw=true"/>
-      <p>The counturing surface've been realized through <code>createCylSurface</code>, in which i've used the PLASM function <code>CYLINDRICAL_SURFACE</code>.</p>
-       <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot2.png?raw=true"/>
-       <p>With the affine trasformation <code>T</code> and <code>S</code> applied  to the contour and the base, I realizad the other meninges and close them, as you can see in the following picture.</p>
-       <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot3.png?raw=true"/>
-       <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot4.png?raw=true"/>
-       <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot5.png?raw=true"/>
-       <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot6.png?raw=true"/>
-        <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot7.png?raw=true"/>
-
-       <h3 clas="header-level-3">The Fiber Tracts of the spinal cord</h3>
-      <p>Myelinated nerve fibers in the spinal cord are grouped together according to the direction and the type of impulses between just a few pairs of spinal nerves.</p>
-      <img src="https://github.com/giuliab/final-project/blob/master/material/spinal4.jpeg?raw=true"/>
-      <p>The gray matter of spinal cord is organizad into areas called <b>horns</b>, which are:
-      <ul>
-        <li>Dorsal (back) horns: neuron cell bodies here receive information from sensory nerve fibers all around the body about sensation, including touch, temperature, awareness of muscle activity, and balance.</li>
-       <li>Lateral (side) horns: existing only at certain levels of the spinal cord; neuron bodies in the lateral horns regulate the internal organs.</li> 
-       <li>Ventral (front) horns: these contain neuron bodies that send fibers to the skeletal muscles, cousing contraction and movement.</li>
-      </ul>
-      To realize them, i used <code>BEZIER</code> curve and realize the surface through the points interpolation (alway using <code>Bezier</code> but with selector S1).
-      </p>
-      <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot8.png?raw=true"/>
-      <p>The nerve in the fiber tracts have been realized with <code>BEZIER</code> and <code>CYLINDRICAL_SURFACE</code>and the traslation, through the affine trasformation <code>T</code>, of the nerve choosen as a sample.</p>
-        <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot9.png?raw=true">The Sample nerve</img>
-        <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot10.png?raw=true">All the nerve</img>
-         <h3 clas="header-level-3">Spinal Nerve and Sensory Root</h3>
-         <p>The sensory nerve roor carries the impulses about bodily sensation. They converge to form sensory roots at the back of the spinal cord. Impulses are then conveyed to the brain via nerve fiber tracts.</p>
-         <p>Each spinal nerve has a dorsal (posterior) sensory root ganglion, 
-          which is a cluster of nerve cell bodies.</p>
-         <img src="https://github.com/giuliab/final-project/blob/master/material/Spinal_Nerves.jpeg?raw=true"/>
-         <p>Th motor nerve root are bundles of fibers, which leave the front of the spinal cord. I realized them with my function <code>createConicalSurface</code>, which help me drawning the <code>CONICAL_SURFACE</code>.</p>
-         <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot14.png?raw=true"/>
-           <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot13.png?raw=true"/>
-           <p>The fibers conduct impulses from the central nervous system to control voluntary movement and involuntary processes such as digestion.</p>
-           <p>The most difficult part starts now, because the nerves aren't symmetrical, then i can't use the affine trasformations. But, at the end, by changing the control points and applied the right functions, i obtain the following model:</p>
-             <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot15.png?raw=true"/>
-               <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot16.png?raw=true"/>
-       <h2 clas="header-level-2">Disclaimer</h2>
-        <p>I found some material (including text and images) through <a href="www.google.com">Google</a>, <a href="http://it.wikipedia.org/">Wikipedia</a> and in the book <a href="http://us.dk.com/nf/Book/BookDisplay/0,,9780789479884,00.html?strSrchSql=Human+Body/The_Human_Body_Martyn_Page">The Human Body</a>, so they belong to their respective owners.</p>
-            </section>
-
-            <footer>
-              <span class="ribbon-outer">
-                <span class="ribbon-inner">
-                  <p>Projects by <a href="https://github.com/GiuliaB">267055</a> can be found on <a href="https://github.com/cvdlab-cg/267055/tree/master/final-project">GitHub</a></p>
+              <a href="https://github.com/giuliab/final-project/tarball/master" class="tgz">
+                  <em>download</em>
+                .TGZ
+                </a>
                 </span>
-                <span class="left-tail"></span>
-                <span class="right-tail"></span>
-              </span>
-              <p>Page generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot and project implemented in and  <a href="https://github.com/cvdlab/plasm.js">PLASM</a></p>
-              <span class="octocat"></span>
-            </footer>
-          </div>        
-        </body>
-      </html>
+              </section>
+
+              <span class="banner-fix"></span>
+
+
+              <section id="main_content">
+                <h2 clas="header-level-2">Introduction</h2>
+
+        <p>The spinal cord is a cable about 43cm in length running from the brain stem to the lower back. 
+        It contains two types of tissue. The inner core is gray matter made up of nerve cell bodies,
+        unmyelinated axons, glial cells and blood vessels; the outer white matter is mainly composed of 
+        tracts of myelinated axons thath relay impulses to and from the spinal cord and the brain.
+        </br>
+        <img src="http://www.daviddarling.info/images/spinal_cord_cut-away.jpg"/>
+        </p>
+
+        <h3 clas="header-level-3">Extent of spinal cord</h3>
+
+        <p>
+             <img align="left" src="https://github.com/giuliab/final-project/blob/master/material/spinal3.png?raw=true"/>
+        During the body's growth and development, the spinal cord does not continue to lengthen the way that the spinal bones do:
+        it therefore occupies only the first two-thirds of vertebral column. Cylindrical and slightly flattened, the spinal cord is about as 
+        thick as a finger for most of its length; extending from the lower part if the spinal cord is a cluster of individual nerve fiver 
+        called cauda equina.</br>
+        </p>
+        <h3 clas="header-level-3">Spinal nerves</h3>
+        <p>
+        Through 31 pairs of spinal nerves, the spinal cord is connected to the rest of the body; via these nerves, the spinal cord sends and receives
+        information to and from the brain. The spinal nerves run through gaps between adjacent vertebrae and enter the back 
+        and front of the spinal cord as spinal nerve root. </br>
+        <img src="http://www.free-ed.net/sweethaven/MedTech/NurseCare/pics/fig91902_04.jpg"/>
+
+        </p>
+
+         <h2 clas="header-level-2">The project</h2>
+
+        <p>First of all, i made some sketches of the spinal cord to better understand his structure and to obtain the points for the curve.</br>
+        <img src="https://github.com/giuliab/final-project/blob/master/material/base_sketch.jpg?raw=true"/>
+        <img src="https://github.com/giuliab/final-project/blob/master/material/nerve_sketch.jpg?raw=true"/>
+
+        </p>
+         <h3 clas="header-level-3">The Meninges</h3>
+         <p>These are the <b>three protective layer</b> of connective tissue for the spinal cord.</p>
+         <ul>
+            <li><b>The Dura Mater:</b> is the outermost layer, and it forms a tough protective coating.</li>
+            <li><b>The Arachnoid:</b> is the middle protective layer. Its name comes from the fact that the tissue has a spiderweb-like appearance.</li>
+            <li><b>The Pia Mater:</b> is the innermost protective layer. It is very delicate and it is tightly associated with the surface of the spinal cord.</li>
+         </ul>
+         <p>To realize them, i started with the base of Dura mater by drawning a <code>BEZIER</code> curves and obtaining the surface (shown in the picture below) with the point interpolation (always using <code>BEZIER</code>, but with selector S1). </p>
+         <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot1.png?raw=true"/>
+        <p>The counturing surface've been realized through <code>createCylSurface</code>, in which i've used the PLASM function <code>CYLINDRICAL_SURFACE</code>.</p>
+         <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot2.png?raw=true"/>
+         <p>With the affine trasformation <code>T</code> and <code>S</code> applied  to the contour and the base, I realizad the other meninges and close them, as you can see in the following picture.</p>
+         <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot3.png?raw=true"/>
+         <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot4.png?raw=true"/>
+         <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot5.png?raw=true"/>
+         <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot6.png?raw=true"/>
+          <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot7.png?raw=true"/>
+
+         <h3 clas="header-level-3">The Fiber Tracts of the spinal cord</h3>
+        <p>Myelinated nerve fibers in the spinal cord are grouped together according to the direction and the type of impulses between just a few pairs of spinal nerves.</p>
+        <img src="https://github.com/giuliab/final-project/blob/master/material/spinal4.jpeg?raw=true"/>
+        <p>The gray matter of spinal cord is organizad into areas called <b>horns</b>, which are:
+        <ul>
+          <li>Dorsal (back) horns: neuron cell bodies here receive information from sensory nerve fibers all around the body about sensation, including touch, temperature, awareness of muscle activity, and balance.</li>
+         <li>Lateral (side) horns: existing only at certain levels of the spinal cord; neuron bodies in the lateral horns regulate the internal organs.</li> 
+         <li>Ventral (front) horns: these contain neuron bodies that send fibers to the skeletal muscles, cousing contraction and movement.</li>
+        </ul>
+        To realize them, i used <code>BEZIER</code> curve and realize the surface through the points interpolation (alway using <code>Bezier</code> but with selector S1).
+        </p>
+        <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot8.png?raw=true"/>
+        <p>The nerve in the fiber tracts have been realized with <code>BEZIER</code> and <code>CYLINDRICAL_SURFACE</code>and the traslation, through the affine trasformation <code>T</code>, of the nerve choosen as a sample.</p>
+          <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot9.png?raw=true">The Sample nerve</img>
+          <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot10.png?raw=true">All the nerve</img>
+           <h3 clas="header-level-3">Spinal Nerve and Sensory Root</h3>
+           <p>The sensory nerve roor carries the impulses about bodily sensation. They converge to form sensory roots at the back of the spinal cord. Impulses are then conveyed to the brain via nerve fiber tracts.</p>
+           <p>Each spinal nerve has a dorsal (posterior) sensory root ganglion, 
+            which is a cluster of nerve cell bodies.</p>
+           <img src="https://github.com/giuliab/final-project/blob/master/material/Spinal_Nerves.jpeg?raw=true"/>
+           <p>Th motor nerve root are bundles of fibers, which leave the front of the spinal cord. I realized them with my function <code>createConicalSurface</code>, which help me drawning the <code>CONICAL_SURFACE</code>.</p>
+           <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot14.png?raw=true"/>
+             <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot13.png?raw=true"/>
+             <p>The fibers conduct impulses from the central nervous system to control voluntary movement and involuntary processes such as digestion.</p>
+             <p>The most difficult part starts now, because the nerves aren't symmetrical, then i can't use the affine trasformations. But, at the end, by changing the control points and applied the right functions, i obtain the following model:</p>
+               <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot15.png?raw=true"/>
+                 <img src="https://github.com/giuliab/final-project/blob/master/material/Snapshot16.png?raw=true"/>
+         <h2 clas="header-level-2">Disclaimer</h2>
+          <p>I found some material (including text and images) through <a href="www.google.com">Google</a>, <a href="http://it.wikipedia.org/">Wikipedia</a> and in the book <a href="http://us.dk.com/nf/Book/BookDisplay/0,,9780789479884,00.html?strSrchSql=Human+Body/The_Human_Body_Martyn_Page">The Human Body</a>, so they belong to their respective owners.</p>
+              </section>
+
+              <footer>
+                <span class="ribbon-outer">
+                  <span class="ribbon-inner">
+                    <p>Projects by <a href="https://github.com/GiuliaB">267055</a> can be found on <a href="https://github.com/cvdlab-cg/267055/tree/master/final-project">GitHub</a></p>
+                  </span>
+                  <span class="left-tail"></span>
+                  <span class="right-tail"></span>
+                </span>
+                <p>Page generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot and project implemented in and  <a href="https://github.com/cvdlab/plasm.js">PLASM</a></p>
+                <span class="octocat"></span>
+              </footer>
+            </div>        
+          </body>
+        </html>
